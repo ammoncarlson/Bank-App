@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true,
+    "outDir": "dist",
+    "allowJs": true,
+    "experimentalDecorators": true
+  },
+
+  "exclude": [
+    "test/src/CheckingAccount.ts",
+    "test/src/RetirementAccount.ts",
+    "test/src/SavingsAccount.ts"
+  ]
+}
